@@ -42,7 +42,6 @@ public class fileProcessingAssign {
             while ((text = reader.readLine()) != null) {
                 String[] linesfromcsv = text.split(cvsSplitBy);
                 if (linesfromcsv[3].contains("10/08/2016")) {
-                    //System.out.println("PlayID = "+playId[3]);
                     map.put(linesfromcsv[1], linesfromcsv[2]);
                 }
 
