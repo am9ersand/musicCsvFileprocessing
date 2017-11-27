@@ -36,12 +36,6 @@ import java.util.Set;
  */
 public class SingleKeyMultipleValueUsingGuava2 {
 
-    public String distinctPlayCount(Set<String> x) {
-
-        return "";
-
-    }
-
     public static void main(String[] args) throws FileNotFoundException {
 
         // create multimap to store key and values
