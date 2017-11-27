@@ -74,7 +74,6 @@ public class SingleKeyMultipleValueUsingGuava2 {
             }
         }
         try {
-            //System.setOut(new PrintStream(new File("output-file-with-final-result.txt")));// Print to file
             System.setOut(new PrintStream(new File("rtest-output-file-with-final-result.txt")));// Print to file
         } catch (Exception e) {
             e.printStackTrace();
